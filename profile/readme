@@ -1,0 +1,7 @@
+1. do some modifications in start_expo.py:
+    uncomment profiling lines
+    comment out line run(...)
+        ... there is a comment which indicates which lines are meant
+2. run: python2 start_expo.py expo_num
+3. run: python profile/view.py expo_num (both python2 and python should work)
+4. view generated image stored in profile/ named profile-expo-expo_num

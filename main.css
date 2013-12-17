@@ -1,0 +1,91 @@
+body {
+  background: #F9F8F4;
+  color: #4F4E4A;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5em;
+  font-size: 32px;
+}
+
+.header {
+	background-color: #D05A3A;
+	color: #f4f4f4;
+	padding: 0.4em 0;
+	margin-bottom: 2em;
+	-webkit-box-shadow: 0 1px 6px #DFDEDA;
+		 -moz-box-shadow: 0 1px 6px #DFDEDA;
+	        box-shadow: 0 1px 6px #DFDEDA;
+}
+.header > div {
+	max-width: 40em;
+	min-width: 25em;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0 .5em;
+}
+.max_score {
+	float: left;
+}
+.user_name {
+	float: right;
+}
+
+.instr,
+.info,
+.score,
+.greeting {
+	background: white;
+	display: block;
+	padding: 1em;
+	max-width: 38em;
+	min-width: 25em;
+	margin: .5em auto;
+	-webkit-border-radius: 0.5em;
+	        border-radius: 0.5em;
+	-webkit-box-shadow: 0 1px 6px #DFDEDA;
+		 -moz-box-shadow: 0 1px 6px #DFDEDA;
+	        box-shadow: 0 1px 6px #DFDEDA;
+	border: thin solid #DAD6CD;
+}
+
+@media screen and (max-width: 40em) {
+	.instr,
+	.info,
+	.score,
+	.greeting {
+		border-radius: 0;
+	}
+}
+
+.greeting,
+.score {
+	text-align: center;
+}
+.greeting div,
+.info div,
+.score div,
+.user_name div,
+.max_score div {
+	display: inline-block;
+}
+.info .line {
+	display: block;
+	width: 9em;
+	margin: 0 auto;
+}
+.info .key {
+	width: 4em;
+	text-align: right;
+}
+.info .value {
+	width: 4em;
+}
+.max_score_value,
+.user_name_value,
+.value, .score_value,
+.greeting_value,
+.max_score_value,
+.greeting_excl {
+	font-weight: bold;
+}

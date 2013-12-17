@@ -1,0 +1,13 @@
+pokus
+pokus/*
+__pycache__
+__pycache__/*
+*.pyc
+*.log
+*.swp
+.doc#
+*.db
+tmp
+run
+profile/profile-expo-*
+arduino/test/.build/*
